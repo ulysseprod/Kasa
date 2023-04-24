@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./Carousel.css"
+import "../styles/Carousel.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export function Carousel(props) {

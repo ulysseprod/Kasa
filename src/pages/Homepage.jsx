@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Homepage.css";
+import "../styles/Homepage.css";
 import Banner from "../components/Banner.jsx"
 import products from "../Database/db.json";
 import { Link } from "react-router-dom";

@@ -1,4 +1,4 @@
-import "./Apartmentpage.css"
+import "../styles/Apartmentpage.css";
 import {useParams} from "react-router-dom"
 import {Collapse} from "../components/Collapse"
 import {Carousel} from "../components/Carousel"

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./About.css"
+import "../styles/About.css";
 import {Collapse} from "../components/Collapse"
 function About() {
  
