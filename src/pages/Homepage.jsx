@@ -16,7 +16,8 @@ function Homepage() {
       <article key={product.id}>
         <Link to={`/products/${product.id}`}>
           <div className="appartment">
-      	      <img src={product.cover} alt="" className="appartment__img" />
+      	      <img src={product.cover} alt="Image de chaque appartement" 
+              className="appartment__img" />
       	      <h2 className="appartment__title">{product.title}</h2>
           </div>
         </Link>
