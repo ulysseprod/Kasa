@@ -5,11 +5,9 @@ import "../styles/Navbar.css";
 function Navbar(){
     return (
     <nav className= "navbar">
-        <NavLink to="/">
         <div className="navbar_logo">
             <img src="logo.jpg" alt="Logo"/>
         </div>
-        </NavLink>
         <NavLink to="/">
             <div>Accueil</div>
         </NavLink>
