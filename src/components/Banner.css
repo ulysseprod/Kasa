@@ -1,0 +1,32 @@
+.banner{
+    position:relative;
+    max-width:100vw;
+    padding-inline: 2rem;
+    background-image: url('../image/banner-background.png');
+    height:150px;
+    margin: auto;
+    border-radius: 2rem;
+    display:grid;
+    place-items:center;
+    color:white;
+    width:90%;
+    background-position: center;
+    background-size:cover;
+    margin-bottom:2rem;
+}
+
+@media screen and (width <=768px){
+    .banner {
+        width:85%;
+        text-align: center;
+        padding:0.5% 1.5%;
+    }
+}
+
+.banner::before{
+    position: absolute;
+    border-radius:2rem;
+    content:"";
+    inset:0;
+    opacity:0.5;
+}

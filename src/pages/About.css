@@ -1,0 +1,28 @@
+.about-background{
+    text-align: center;
+}
+
+.about-background img{
+    border-radius: 1rem;
+    width:90%;
+    max-width:100%;
+}
+
+
+@media screen and (width <=768px){
+    .about-background img{
+        width:90%;
+        height:223px;
+        margin-top:1rem;
+        object-fit:cover;
+    }
+}
+
+.about_container{
+    margin-top:1rem;
+    padding:3% 10%;
+}
+
+
+
+
