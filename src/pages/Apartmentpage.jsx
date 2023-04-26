@@ -9,8 +9,8 @@ function Apartmentpage() {
 
 const { productId } = useParams();
 
-const product = products.find((prod) => {
-    return prod.id === productId;
+const product = products.find((product) => {
+    return product.id === productId;
 });
 
 if(product === undefined) {
