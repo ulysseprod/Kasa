@@ -1,14 +1,22 @@
 import "../styles/Apartmentpage.css";
-import {useParams} from "react-router-dom"
+import {Navigate,useParams} from "react-router-dom"
 import {Collapse} from "../components/Collapse"
 import {Carousel} from "../components/Carousel"
 import products from "../Database/db.json";
 
 
 function Apartmentpage() { 
-    
+
 const { productId } = useParams();
-const product = products.find((product) => product.id === productId);
+
+const product = products.find((prod) => {
+    return prod.id === productId;
+});
+
+if(product === undefined) {
+    return <Navigate to="/404" replace={true} />;
+}
+
 const {title, location, rating, host, equipments, description, pictures, tags } = product;
 const person= host.name;
 const [firstName, LastName]= person.split(" ");

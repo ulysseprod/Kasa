@@ -4,6 +4,7 @@ import Banner from "../components/Banner.jsx"
 import products from "../Database/db.json";
 import { Link } from "react-router-dom";
 
+
 function Homepage() {
   return (
     <div className="home">

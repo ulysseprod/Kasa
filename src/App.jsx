@@ -25,6 +25,7 @@ function App() {
             <Route index element={<Homepage />} />
             <Route path="about" element={<About />} />
             <Route path="products/:productId" element={<Apartmentpage/>} />
+            <Route path="/404" element={<Errorpage/>} />
             <Route path="*" element={<Errorpage />} />
           </Routes>
           <Footer />
